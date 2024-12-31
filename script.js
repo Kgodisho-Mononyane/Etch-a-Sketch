@@ -33,3 +33,10 @@ Additionally, implement a progressive darkening effect where each interaction da
 
 You can choose to do either one or both of these challenges, it’s up to you.
 */
+
+const colorPicker = document.querySelector("#colorPicker");
+const colorBtn = document.querySelector("#colorBtn");
+const rainbowBtn = document.querySelector("#rainbowBtn");
+const eraserBtn = document.querySelector("#eraserBtn");
+const clearBtn = document.querySelector("#clearBtn");
+clearBtn.onclick = () => alert("it works")

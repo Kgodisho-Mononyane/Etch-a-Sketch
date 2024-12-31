@@ -13,7 +13,7 @@
 
 .heading {
     font-family: 'Courier New', Courier, monospace;
-    height: 400px;
+    /* height: 400px; */
     color: #333333;
     /*width: 900px; */
 }
@@ -25,6 +25,12 @@
     /*content here*/
 }
 
+#slider-container {
+    display: flex;
+    /*get the slider and the number to be on top of each other*/
+    justify-content: center;
+}
+
 #buttons {
     display: flex;
     justify-content: center;
@@ -34,7 +40,7 @@
 .colorPicker {
     border: none;
     border-radius: 20px;
-    height: 40px;
+    height: 45px;
     width: 200px;
 }
 
