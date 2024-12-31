@@ -27,8 +27,13 @@
 
 #slider-container {
     display: flex;
+    flex-direction: column;
     /*get the slider and the number to be on top of each other*/
     justify-content: center;
+}
+
+#myRange {
+    width: 150px;
 }
 
 #buttons {
