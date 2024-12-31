@@ -1,5 +1,5 @@
 * {
-    /*content here*/
+    background-color: #D3D3D3;
 }
 
 #display {
@@ -7,18 +7,16 @@
 }
 
 #buttons {
+    display: flex;
+    align-items: center;
     /*content here*/
 }
 
-
-
-
 #footer{
+    background-color: white;
     margin-top: 20px;
-    background-color: #D3D3D3;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
