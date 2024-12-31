@@ -1,9 +1,10 @@
 
-
+/*ALL*/
 * {
     background-color: #D3D3D3;
 }
 
+/*HEADER*/
 #header {
     display: flex;
     align-items: center;
@@ -14,16 +15,20 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*BODY*/
 #display {
     /*content here*/
 }
 
 #buttons {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
+    justify-content: center;
     /*content here*/
 }
 
+
+/*FOOTER*/
 #footer{
     background-color: white;
     margin-top: 20px;
