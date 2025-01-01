@@ -9,12 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1F2937;
 }
 
 .heading {
     font-family: 'Courier New', Courier, monospace;
     /* height: 400px; */
-    color: #333333;
+    color: white;
     /*width: 900px; */
 }
 
@@ -56,6 +57,8 @@
     height: 40px;
     width: 200px;
     border-color: black;
+    background-color: #3882f6;
+    color: white;
 }
 
 
