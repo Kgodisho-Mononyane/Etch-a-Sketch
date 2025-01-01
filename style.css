@@ -62,7 +62,8 @@ body {
     margin: 7px;
     height: 40px;
     width: 200px;
-    border-color: black;
+    border: none;
+    border-radius: 10px;
     background-color: #3882f6;
     color: white;
 }
