@@ -22,6 +22,8 @@
 
 /*BODY*/
 #display {
+    display: flex;
+    justify-content: center;
     /*content here*/
 }
 
