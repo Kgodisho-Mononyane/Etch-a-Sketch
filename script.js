@@ -7,3 +7,4 @@ const clearBtn = document.querySelector("#clearBtn");
 
 //grid
 const grid = document.querySelector("#grid");
+
