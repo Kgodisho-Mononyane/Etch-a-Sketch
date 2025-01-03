@@ -10,7 +10,7 @@ const eraserBtn = document.querySelector("#eraserBtn");
 const clearBtn = document.querySelector("#clearBtn");
 
 //GRID
-const grid = document.querySelector("#grid");
+const grid = document.querySelector("#grid-container");
 
 let rows = 16;
 let cols = 16;
