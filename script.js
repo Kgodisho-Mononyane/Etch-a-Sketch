@@ -17,7 +17,7 @@ let cols = 16;
 
 for (let i = 0; i < rows * cols; i++) {
     const cell = document.createElement("div");
-    cell.classList.add("cell");
+    cell.classList.add("grid-cell");
     grid.appendChild(cell)
 }
 
