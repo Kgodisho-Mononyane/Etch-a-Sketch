@@ -12,6 +12,14 @@ const clearBtn = document.querySelector("#clearBtn");
 //GRID
 const grid = document.querySelector("#grid");
 
+//DEFAULTS
+const defaultColor = '#3882f6';
+const defaultMode = 'colour'
+const defaultSize = 16
+
+let currentColor = defaultColor;
+let currentMode = defaultMode;
+let currentSize = defaultSize;
 
 
 //BUTTON EVENT LISTENERS
@@ -35,3 +43,5 @@ clearBtn.addEventListener("click", () => {
     //add function
 })
 
+
+//FUNCTIONS
