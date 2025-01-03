@@ -7,26 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <!--HEADER-->
     <div id="header">
         <h1 class="heading">ETCH-A-SKETCH</h1>
     </div>
 
+    <!--BODY-->
     <div id="body">
         <div id="body-left">
             <input id="colorPicker" type="color" value="#3882f6" class="colorPicker">
-            <div id="slider-container">
-                <div id="slider-value">16 x 16</div>
-                <!--adjust the values in the range input-->
-                <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
+            <div id="slider-value">16 x 16</div>
+            <!--adjust the values in the range input-->
+            <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
         </div>
         <div id="body-middle">
-            <div id="display">
-                <div id="grid-container" class="grid"><!--grid goes here--></div>
+            <div id="grid-container" class="grid"><!--grid goes here--></div>
         </div>
         <div id="body-right">
             <div id="buttons">
-                
                 <button id="colorBtn" class="button">Colour mode</button>
                 <button id="rainbowBtn" class="button">Rainbow mode</button>
                 <button id="eraserBtn" class="button">Eraser</button>
@@ -35,16 +33,12 @@
         </div>
     </div>
 
+    <!--FOOTER-->
     <div id="footer">
         <h3 class="copyright">Copyright © <script>document.write(new Date().getFullYear())</script> Kgodisho Mononyane</h3>
         <a href="https://github.com/Kgodisho-Mononyane/Etch-a-Sketch" target="_blank"><h3 class="github">Github</h3></a>
     </div>
         
-        </div>
-    </div>
-
-    
-
     <script src="script.js"></script>
 </body>
 </html>
