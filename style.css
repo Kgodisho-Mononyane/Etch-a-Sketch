@@ -31,7 +31,17 @@ body {
 #display {
     display: flex;
     justify-content: center;
+
     /*content here*/
+}
+
+#grid {
+    display: grid;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    /* grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr); */
 }
 
 #slider-container {
