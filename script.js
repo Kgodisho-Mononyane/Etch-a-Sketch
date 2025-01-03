@@ -12,6 +12,15 @@ const clearBtn = document.querySelector("#clearBtn");
 //GRID
 const grid = document.querySelector("#grid");
 
+let rows = 16;
+let cols = 16;
+
+for (let i = 0; i < rows * cols; i++) {
+    const cell = document.createElement("div");
+    cell.classList.add("cell");
+    grid.appendChild(cell)
+}
+
 
 //BUTTON EVENT LISTENERS
 colorPicker.addEventListener("click", () => {

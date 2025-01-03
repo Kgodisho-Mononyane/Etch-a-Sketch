@@ -3,6 +3,7 @@
 body {
     margin: 0;
     /* background-color: #D3D3D3; */
+    height: 1000px;
 }
 
 
@@ -30,18 +31,25 @@ body {
 /*BODY*/
 #display {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 
     /*content here*/
 }
 
 #grid {
+    margin-top: 50px;
     display: grid;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px; 
     border: 1px solid black;
     /* grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr); */
+}
+
+.cell {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
 }
 
 #slider-container {
