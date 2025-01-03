@@ -1,3 +1,7 @@
+//slider
+const sliderValue = document.querySelector("#slider-value");
+const slider = document.querySelector("#myRange");
+
 //buttons
 const colorPicker = document.querySelector("#colorPicker");
 const colorBtn = document.querySelector("#colorBtn");
