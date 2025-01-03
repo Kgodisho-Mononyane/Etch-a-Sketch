@@ -1,14 +1,16 @@
+/* ALL */
+* {
+    /*fill in*/
+}
 
-/*ALL*/
 body {
     margin: 0;
-    /* background-color: #D3D3D3; */
-    height: 1000px;
+    height: 100%;
+    width: 100%
 }
 
 
-
-/*HEADER*/
+/* HEADER */
 #header {
     /* top: 0;
     left: 0; 
@@ -26,23 +28,26 @@ body {
     /*width: 900px; */
 }
 
-
-
-/*BODY*/
-body {
-    height: 100%;
-    width: 100%
+/*BODY-CONTAINER*/
+#body-container {
+    display:flex;
 }
 
-#display {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    /*content here*/
+/* BODY-LEFT */
+.colorPicker {
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+    width: 200px;
 }
 
+#myRange {
+    width: 150px;
+}
+
+
+/* BODY-MIDDLE */
 #grid-container {
     margin-top: 10px;
     display: grid;
@@ -58,28 +63,11 @@ body {
     box-sizing: border-box;
 }
 
-#slider-container {
-    display: flex;
-    flex-direction: column;
-    /*get the slider and the number to be on top of each other*/
-    justify-content: center;
-}
-
-#myRange {
-    width: 150px;
-}
-
+/* BODY-RIGHT */
 #buttons {
     display: flex;
     justify-content: center;
     /*make a space between the buttons*/
-}
-
-.colorPicker {
-    border: none;
-    border-radius: 20px;
-    height: 45px;
-    width: 200px;
 }
 
 .button {
@@ -93,9 +81,7 @@ body {
 }
 
 
-
-
-/*FOOTER*/
+/* FOOTER */
 #footer{
     /* position: absolute;  */
      bottom: 0;
