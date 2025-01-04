@@ -39,8 +39,8 @@ body {
 .colorPicker {
     border: none;
     border-radius: 20px;
-    height: 45px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 
 #myRange {
@@ -65,7 +65,7 @@ body {
 }
 
 .grid-cell:hover {
-    /* background-color: blue; */
+    background-color: #D3D3D3;
 }
 
 /* BODY-RIGHT */
