@@ -53,9 +53,6 @@ clearBtn.addEventListener("click", () => {
     clearGrid();
 })
 
-// cell.addEventListener("click", () => {
-    
-// })
 
 
 //FUNCTIONS
