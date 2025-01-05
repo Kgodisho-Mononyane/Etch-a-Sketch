@@ -3,17 +3,16 @@ const DEFAULT_COLOR = '#3882f6';
 const DEFAULT_MODE = "color";
 const DEFAULT_SIZE = "16"
 
-
-//SLIDER
-const sliderValue = document.querySelector("#slider-value");
-const slider = document.querySelector("#myRange");
-
 //BUTTONS
 const colorPicker = document.querySelector("#colorPicker");
 const colorBtn = document.querySelector("#colorBtn");
 const rainbowBtn = document.querySelector("#rainbowBtn");
 const eraserBtn = document.querySelector("#eraserBtn");
 const clearBtn = document.querySelector("#clearBtn");
+
+//SLIDER
+const sliderValue = document.querySelector("#slider-value");
+const slider = document.querySelector("#myRange");
 
 //GRID
 const grid = document.querySelector("#grid");
