@@ -45,15 +45,13 @@ eraserBtn.addEventListener("click", () => {
 })
 
 clearBtn.addEventListener("click", () => {
-    clear();
+    clearGrid();
 })
 
 // cell.addEventListener("click", () => {
     
 // })
 
-//SLIDER
-sliderValue.textContent = `${slider.value} x ${slider.value}`;
 
 //FUNCTIONS
 function currentColor() {
@@ -66,6 +64,11 @@ function currentMode() {
 
 function currentSize() {
     //function that sets the current size
+}
+
+function changeSliderValue() {
+    // function that changes the value above the slider
+    sliderValue.textContent = `${slider.value} x ${slider.value}`;
 }
 
 function pickColor() {
@@ -88,7 +91,8 @@ function eraser() {
     console.log("You clicked the eraser setting")
 }
 
-function clear() {
+function clearGrid() {
     //function that clears all changes back to the default
+    grid.innerHTML = ''
     console.log("You clicked the clear button")
 }
