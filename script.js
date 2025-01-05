@@ -1,3 +1,9 @@
+//DEFAULTS
+const DEFAULT_COLOR = '#3882f6';
+const DEFAULT_MODE = "color";
+const DEFAULT_SIZE = "16"
+
+
 //SLIDER
 const sliderValue = document.querySelector("#slider-value");
 const slider = document.querySelector("#myRange");
