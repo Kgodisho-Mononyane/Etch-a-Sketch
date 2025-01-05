@@ -21,8 +21,13 @@ for (let i = 0; i < rows * cols; i++) {
     grid.appendChild(cell)
 }
 
+console.log(slider.value)
 
 //BUTTON EVENT LISTENERS
+// cell.addEventListener("click", () => {
+    
+// })
+
 colorPicker.addEventListener("click", () => {
     //add function
 })
