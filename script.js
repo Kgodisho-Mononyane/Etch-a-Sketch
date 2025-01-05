@@ -57,6 +57,17 @@ clearBtn.addEventListener("click", () => {
 sliderValue.textContent = `${slider.value} x ${slider.value}`;
 
 //FUNCTIONS
+function currentColor() {
+    //function that establishes the current colour
+}
+
+function currentMode() {
+    //function that sets the current mode
+}
+
+function currentSize() {
+    //function that sets the current size
+}
 
 function pickColor() {
     //function that changes the colour that is picked
