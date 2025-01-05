@@ -49,7 +49,7 @@ body {
 
 
 /* BODY-MIDDLE */
-#grid-container {
+#grid {
     margin-top: 10px;
     display: grid;
     height: 450px;
