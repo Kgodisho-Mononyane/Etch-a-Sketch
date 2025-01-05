@@ -4,9 +4,9 @@ const DEFAULT_MODE = "color";
 const DEFAULT_SIZE = "16"
 
 //VARIABLES
-let currentColor = DEFAULT_COLOR;
-let currentMode = DEFAULT_MODE;
-let currentSize = DEFAULT_SIZE;
+// let currentColor = DEFAULT_COLOR;
+// let currentMode = DEFAULT_MODE;
+// let currentSize = DEFAULT_SIZE;
 
 //BUTTONS
 const colorPicker = document.querySelector("#colorPicker");
@@ -22,14 +22,21 @@ const slider = document.querySelector("#myRange");
 //GRID
 const grid = document.querySelector("#grid");
 
-let rows = 16;
-let cols = 16;
 
-for (let i = 0; i < rows * cols; i++) {
-    const cell = document.createElement("div");
-    cell.classList.add("grid-cell");
-    grid.appendChild(cell)
+//CREATE THE GRID
+function createGrid() {
+    let rows = 16;
+    let cols = 16;
+    
+    for (let i = 0; i < rows * cols; i++) {
+        const cell = document.createElement("div");
+        cell.classList.add("grid-cell");
+        grid.appendChild(cell)
 }
+}
+
+createGrid();
+
 
 //BUTTON EVENT LISTENERS
 
@@ -52,6 +59,7 @@ eraserBtn.addEventListener("click", () => {
 clearBtn.addEventListener("click", () => {
     clearGrid();
 })
+
 
 
 
