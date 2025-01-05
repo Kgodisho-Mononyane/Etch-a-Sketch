@@ -3,6 +3,11 @@ const DEFAULT_COLOR = '#3882f6';
 const DEFAULT_MODE = "color";
 const DEFAULT_SIZE = "16"
 
+//VARIABLES
+let currentColor = DEFAULT_COLOR;
+let currentMode = DEFAULT_MODE;
+let currentSize = DEFAULT_SIZE;
+
 //BUTTONS
 const colorPicker = document.querySelector("#colorPicker");
 const colorBtn = document.querySelector("#colorBtn");
