@@ -31,6 +31,7 @@ function createGrid() {
     for (let i = 0; i < rows * cols; i++) {
         const cell = document.createElement("div");
         cell.classList.add("grid-cell");
+        //add event listener that adds colour based on a function that chooses the colour
         grid.appendChild(cell)
 }
 }
