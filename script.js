@@ -31,6 +31,10 @@ function createGrid() {
     for (let i = 0; i < rows * cols; i++) {
         const cell = document.createElement("div");
         cell.classList.add("grid-cell");
+        cell.addEventListener("mousedown", () => {
+            console.log("div clicked")
+            cell.style.backgroundColor = "red"
+        })
         //add event listener that adds colour based on a function that chooses the colour
         grid.appendChild(cell)
 }
@@ -67,6 +71,7 @@ clearBtn.addEventListener("click", () => {
 //FUNCTIONS
 function currentColor() {
     //function that establishes the current colour
+    /* */
 }
 
 function currentMode() {
@@ -99,6 +104,7 @@ function rainbowFunction() {
 
 function eraser() {
     // function that changes the setting to the eraser setting
+    cell.style.backgroundColor = ''
     console.log("You clicked the eraser setting")
 }
 
