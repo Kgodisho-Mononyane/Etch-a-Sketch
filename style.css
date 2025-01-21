@@ -46,7 +46,13 @@ body {
 }
 
 #grid {
-
+    margin-top: 10px;
+    display: grid;
+    height: 450px;
+    width: 450px; 
+    border: 1px solid black;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
 }
 
 #body-right {
@@ -127,17 +133,6 @@ body {
 
 #myRange {
     width: 100px;
-}
-
-
-#grid {
-    margin-top: 10px;
-    display: grid;
-    height: 450px;
-    width: 450px; 
-    border: 1px solid black;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
 }
 
 .grid-cell {
