@@ -41,7 +41,7 @@ body {
 }
 
 #myRange {
-
+    width: 100px;
 }
 
 #body-middle {
@@ -127,12 +127,6 @@ body {
 
 
 /*
-#colorPicker {
-    
-}
-
-#myRange {
-    width: 100px;
 
 .grid-cell {
     border: 1px solid #ddd;
@@ -142,8 +136,4 @@ body {
 .grid-cell:hover {
     background-color: #D3D3D3;
 }
-
-
 */
-
-
