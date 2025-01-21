@@ -54,11 +54,18 @@ body {
 }
 
 #buttons-container {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .button {
-
+    margin: 7px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1F2937;
+    color: white;
 }
 
 #colorBtn {
@@ -111,7 +118,6 @@ body {
 
 
 /*
-
 #colorPicker {
     border: none;
     border-radius: 20px;
@@ -144,22 +150,6 @@ body {
 }
 
 
-#buttons {
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-.button {
-    margin: 7px;
-    height: 40px;
-    width: 200px;
-    border: none;
-    border-radius: 10px;
-    background-color: #3882f6;
-    color: white;
-}
 */
 
 
