@@ -1,32 +1,32 @@
 /* ALL */
-* {
-    /*fill in*/
-}
-
 body {
     margin: 0;
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 
 /* HEADER */
 #header {
-    /* top: 0;
-    left: 0; 
-    right: 0; */
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     background-color: #1F2937;
 }
 
 .heading {
-    font-family: 'Courier New', Courier, monospace;
-    /* height: 400px; */
     color: white;
-    /*width: 900px; */
+    font-family: 'Courier New', Courier, monospace;
 }
+
+
+/* BODY */
+/* FOOTER */
+
+
+
+
+
 
 /*BODY-CONTAINER*/
 #body-container {
