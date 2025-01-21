@@ -30,7 +30,10 @@ body {
 }
 
 #colorPicker {
-
+    border: none;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
 }
 
 #slider-value {
@@ -125,15 +128,11 @@ body {
 
 /*
 #colorPicker {
-    border: none;
-    border-radius: 20px;
-    height: 100px;
-    width: 100px;
+    
 }
 
 #myRange {
     width: 100px;
-}
 
 .grid-cell {
     border: 1px solid #ddd;
