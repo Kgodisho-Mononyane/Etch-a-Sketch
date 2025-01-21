@@ -5,7 +5,6 @@ body {
     width: 100%;
 }
 
-
 /* HEADER */
 #header {
     display: flex;
@@ -21,21 +20,24 @@ body {
 
 
 /* BODY */
+
+
+
 /* FOOTER */
 
 
 
 
 
+/*
 
-/*BODY-CONTAINER*/
 #body-container {
     display:flex;
     justify-content: center;
 }
 
 
-/* BODY-LEFT */
+
 #colorPicker {
     border: none;
     border-radius: 20px;
@@ -48,7 +50,7 @@ body {
 }
 
 
-/* BODY-MIDDLE */
+
 #grid {
     margin-top: 10px;
     display: grid;
@@ -68,13 +70,12 @@ body {
     background-color: #D3D3D3;
 }
 
-/* BODY-RIGHT */
+
 #buttons {
     display: flex;
     flex-direction: column;
 
-    /* justify-content: center; */
-    /*make a space between the buttons*/
+
 }
 
 .button {
@@ -88,16 +89,15 @@ body {
 }
 
 
-/* FOOTER */
+
 #footer{
-    /* position: absolute;  */
      bottom: 0;
     left: 0;
     right: 0; 
     background-color: #1F2937;
     margin-top: 20px;
     /* margin-bottom: 0; */
-    height: 100px;
+    /* height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,4 +113,5 @@ body {
 
 .github:hover {
     text-decoration: underline;
-  }
+  } */
+
