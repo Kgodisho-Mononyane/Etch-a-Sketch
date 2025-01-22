@@ -46,10 +46,11 @@ for (let i = 0; i < rows * cols; i++) {
     const cell = document.createElement("div");
     cell.classList.add("grid-cell");
     cell.addEventListener("mousedown", () => {
-    cell.style.backgroundColor = "red";
-        });
-    }
+        cell.style.backgroundColor = "red";
+    });
     grid.appendChild(cell);
+}
+    
 
 
 
