@@ -1,3 +1,25 @@
+//VARIABLES
+
+
+//QUERY SELECTORS
+const colorPicker = document.querySelector("#colorPicker");
+const sliderValue = document.querySelector("#slider-value");
+const slider = document.querySelector("#myRange");
+
+const grid = document.querySelector("#grid");
+
+const colorBtn = document.querySelector("#colorBtn");
+const rainbowBtn = document.querySelector("#rainbowBtn");
+const eraserBtn = document.querySelector("#eraserBtn");
+const clearBtn = document.querySelector("#clearBtn");
+
+
+//EVENT LISTENERS
+
+
+//FUNCTIONS
+
+
 // //DEFAULTS
 // const DEFAULT_COLOR = '#3882f6';
 // const DEFAULT_MODE = "color";
@@ -7,21 +29,6 @@
 // // let currentColor = DEFAULT_COLOR;
 // // let currentMode = DEFAULT_MODE;
 // // let currentSize = DEFAULT_SIZE;
-
-// //BUTTONS
-// const colorPicker = document.querySelector("#colorPicker");
-// const colorBtn = document.querySelector("#colorBtn");
-// const rainbowBtn = document.querySelector("#rainbowBtn");
-// const eraserBtn = document.querySelector("#eraserBtn");
-// const clearBtn = document.querySelector("#clearBtn");
-
-// //SLIDER
-// const sliderValue = document.querySelector("#slider-value");
-// const slider = document.querySelector("#myRange");
-
-// //GRID
-// const grid = document.querySelector("#grid");
-
 
 // //CREATE THE GRID
 //     let rows = 16;
