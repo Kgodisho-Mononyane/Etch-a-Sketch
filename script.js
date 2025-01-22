@@ -72,13 +72,6 @@ function clearFunction() {
 
 
 
-// clearBtn.addEventListener("click", () => {
-//     clearGrid();
-// })
-
-
-
-
 // //FUNCTIONS
 // function currentColor() {
 //     //function that establishes the current colour

@@ -25,10 +25,6 @@ body {
     justify-content: center;
 }
 
-#body-left {
-
-}
-
 #colorPicker {
     border: none;
     border-radius: 20px;
@@ -36,16 +32,8 @@ body {
     width: 100px;
 }
 
-#slider-value {
-
-}
-
 #myRange {
     width: 100px;
-}
-
-#body-middle {
-
 }
 
 #grid {
@@ -67,10 +55,6 @@ body {
     background-color: #D3D3D3;
 }
 
-#body-right {
-
-}
-
 #buttons-container {
     display: flex;
     flex-direction: column;
@@ -84,22 +68,6 @@ body {
     border-radius: 10px;
     background-color: #1F2937;
     color: white;
-}
-
-#colorBtn {
-
-}
-
-#rainbowBtn {
-
-}
-
-#eraserBtn {
-
-}
-
-#clearBtn {
-
 }
 
 /* FOOTER */
