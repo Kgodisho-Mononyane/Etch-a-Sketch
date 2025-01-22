@@ -15,7 +15,33 @@ const clearBtn = document.querySelector("#clearBtn");
 
 
 //EVENT LISTENERS
+colorPicker.addEventListener("click", () => {
 
+});
+
+slider.addEventListener("click", () => {
+
+});
+
+colorBtn.addEventListener("click", () => {
+
+});
+
+rainbowBtn.addEventListener("click", () => {
+
+});
+
+eraserBtn.addEventListener("click", () => {
+
+});
+
+clearBtn.addEventListener("click", () => {
+
+});
+
+colorPicker.addEventListener("click", () => {
+
+});
 
 //FUNCTIONS
 
