@@ -58,6 +58,15 @@ body {
     grid-template-rows: repeat(16, 1fr);
 }
 
+.grid-cell {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.grid-cell:hover {
+    background-color: #D3D3D3;
+}
+
 #body-right {
 
 }
@@ -125,16 +134,4 @@ body {
     text-decoration: underline;
 }
 
-
-/*
-
-.grid-cell {
-    border: 1px solid #ddd;
-    box-sizing: border-box;
-}
-
-.grid-cell:hover {
-    background-color: #D3D3D3;
-}
-*/
 

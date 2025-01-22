@@ -16,80 +16,61 @@ const clearBtn = document.querySelector("#clearBtn");
 
 //EVENT LISTENERS
 colorPicker.addEventListener("click", () => {
-
+    pickColor();
 });
 
 slider.addEventListener("click", () => {
-
 });
 
 colorBtn.addEventListener("click", () => {
-
+    colorFunction();
 });
 
 rainbowBtn.addEventListener("click", () => {
-
+    rainbowFunction();
 });
 
 eraserBtn.addEventListener("click", () => {
-
+    eraserFunction();
 });
 
 clearBtn.addEventListener("click", () => {
-
+    clearFunction();
 });
 
-colorPicker.addEventListener("click", () => {
+//GRID
+let rows = 16;
+    let cols = 16;
 
-});
+    for (let i = 0; i < rows * cols; i++) {
+        const cell = document.createElement("div");
+        cell.classList.add("grid-cell");
+        cell.addEventListener("mousedown", () => {
+            cell.style.backgroundColor = "red";
+        });
+    }
+    grid.appendChild(cell);
+
+
 
 //FUNCTIONS
 
+function pickColor() {
+}
 
-// //DEFAULTS
-// const DEFAULT_COLOR = '#3882f6';
-// const DEFAULT_MODE = "color";
-// const DEFAULT_SIZE = "16"
-
-// //VARIABLES
-// // let currentColor = DEFAULT_COLOR;
-// // let currentMode = DEFAULT_MODE;
-// // let currentSize = DEFAULT_SIZE;
-
-// //CREATE THE GRID
-//     let rows = 16;
-//     let cols = 16;
+function colorFunction() {
+}
     
-//     for (let i = 0; i < rows * cols; i++) {
-//         const cell = document.createElement("div");
-//         cell.classList.add("grid-cell");
-//         cell.addEventListener("mousedown", () => {
-//             console.log("div clicked")
-//             cell.style.backgroundColor = "red"
-//         })
-//         //add event listener that adds colour based on a function that chooses the colour
-//         grid.appendChild(cell)
-// }
+function rainbowFunction() {
+}
+
+function eraserFunction() {
+}
+
+function clearFunction() {
+}
 
 
-
-// //BUTTON EVENT LISTENERS
-
-// colorPicker.addEventListener("click", () => {
-//     pickColor();
-// })
-
-// colorBtn.addEventListener("click", () => {
-//     colorFunction();
-// })
-
-// rainbowBtn.addEventListener("click", () => {
-//     rainbowFunction();
-// })
-
-// eraserBtn.addEventListener("click", () => {
-//     eraser();
-// })
 
 // clearBtn.addEventListener("click", () => {
 //     clearGrid();
